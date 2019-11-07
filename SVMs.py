@@ -83,5 +83,5 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
 for i in range(len(X_test)):
-	print( (X_test.iloc[i], y_pred[i]))
+	print( (X_test[i], y_pred[i]))
 
